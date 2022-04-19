@@ -682,7 +682,7 @@ void AStar(string initialState, string goalState)
     int minIndex,   //store the index of the minimum cost
         currCost,   //store the current states cost
         tmpCost,    //store the transformed cost
-        numNodes;   //store the number of nodes expanded
+        numNodes = 0;   //store the number of nodes expanded
 
     string currState,   //store the current state
            tmp;     //store the transformed state
